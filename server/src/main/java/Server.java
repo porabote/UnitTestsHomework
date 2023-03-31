@@ -1,11 +1,9 @@
-package org.example;
-
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Scanner;
 
-public class Main {
+public class Server {
 
     static int port = 8089;
     private static Socket clientSocket; //сокет для общения

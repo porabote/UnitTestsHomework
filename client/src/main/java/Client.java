@@ -1,10 +1,8 @@
-package org.example;
-
 import java.io.*;
 import java.net.Socket;
 import java.util.Scanner;
 
-public class Main {
+public class Client {
 
     static String host = "netology.homework";
     static int port = 8089;
